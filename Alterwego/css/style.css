@@ -57,6 +57,42 @@ a{
 	width: 12px;
 	height: auto;
 }
+.bground.mod:after{
+	background-position: -5px -37px;
+}
+.bground.offres:after{
+	background-position: -5px -75px;
+}
+.bground.vin:after{
+	background-position: -5px -113px;
+}
+.bground.users:after{
+	background-position: -5px -152px;
+}
+.bground.call:after{
+	background-position: -5px -190px;
+}
+.bground.contrats:after{
+	background-position: -5px -229px;
+}
+.bground.parc:after{
+	background-position: -5px -268px;
+}
+.bground.payd:after{
+	background-position: -5px -307px;
+}
+.bground.advis:after{
+	background-position: -5px -347px;
+}
+.bground.attr:after{
+	background-position: -5px -383px;
+}
+.bground.faq:after{
+	background-position: -5px -425px;
+}
+.bground.stat:after{
+	background-position: -5px -425px;
+}
 .wrap{
 	width: 90%;
 	margin: 18px auto;	
@@ -113,7 +149,7 @@ header{
 	position: absolute;
     left: -119px;
     top: 0;
-    background: #2ac99a;
+    background: #4fdea0;
     transition: 500ms ease-in-out;
 }
 .menu:hover{
@@ -122,10 +158,11 @@ header{
 }
 .wrap .menu li{
 	width: 95px;
-	height: 48px;
+	/*height: 48px;*/
 	/*background: brown;*/
 	padding-right: 10px;
     text-align: right;
+    padding-bottom: 24px;
 }
 .wrap .menu li a{
 	display: inline-block;
@@ -139,14 +176,15 @@ header{
 	width: 25px;
 	height: 25px;
 	display: inline-block;
-	border: 1px solid black;	
+	/*border: 1px solid black;	*/
 	right: 8px;
     position: absolute;
 }
-.resume a.dashboard:after{
+
+/*.wrap .menu li a.dashboard:after{
 	background: url("../images/icons/home-white.png");
-	background: red !important;
-}
+	background-size: 25px 25px;
+}*/
 .clear{
 	clear: both;
 	width: 100%;
@@ -175,7 +213,7 @@ header{
 	margin-top: 5px;
 }
 .btn.green{
-	background: #2bc99a;
+	background: #4fdea0;
 }
 .btn.orange{
 	background: #ffb300;
@@ -253,4 +291,8 @@ header{
 .field input[type="text"]{
 	width: 82%;
     padding: 3px;
+}
+.bground:after{
+	background: url("../images/icons/sprite.jpg") no-repeat;
+	background-position: -5px 0px;
 }

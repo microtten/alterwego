@@ -41,9 +41,13 @@ a{
 }
 .logo{
 	text-align: right;
-	padding-top: 5px;
-	padding-bottom: 18px;
+	/*padding-top: 5px;*/
+	/*padding-bottom: 18px;*/
+	background: #ffffff;
 
+}
+.logo h1{
+	margin-bottom: 20px;
 }
 .logo img{
 	width: 117px;
@@ -110,11 +114,16 @@ header{
     left: -119px;
     top: 0;
     background: #2ac99a;
+    transition: 500ms ease-in-out;
+}
+.menu:hover{
+	left: 0px;
+	transition: 500ms ease-in-out;
 }
 .wrap .menu li{
 	width: 95px;
 	height: 48px;
-	background: brown;
+	/*background: brown;*/
 	padding-right: 10px;
     text-align: right;
 }

@@ -7,7 +7,11 @@ html,body{
 	margin: 0px;
 }
 li{
-	display: none;
+	/*display: none;*/
+	list-style: none;
+}
+a{
+	text-decoration: none;
 }
 .fleft{
 	float: left;
@@ -15,12 +19,18 @@ li{
 .fright{
 	float: right;
 }
+.padr10{
+	padding-right: 15px;
+}
 .bs{
 	margin-top: 5px;
 	box-shadow: 2px 1px 4px 3px #f1f1f1;
 }
 .pad5{
 	padding-top: 5px;
+}
+.pad13{
+	padding: 13px;
 }
 .padt10{
 	padding-top: 10px;
@@ -32,6 +42,12 @@ li{
 .logo{
 	text-align: right;
 	padding-top: 5px;
+	padding-bottom: 18px;
+
+}
+.logo img{
+	width: 117px;
+	height: auto;
 }
 .icon{
 	width: 12px;
@@ -43,30 +59,84 @@ li{
 	position: relative;
 	overflow: hidden;
 }
-.content{
-	width: calc(100% - 418px);
-	float: left;
-	height: 500px;
+.content{	
+	width: calc(100% - 504px);
+    float: left;
+    height: 500px;
+    /*background: blue;*/
+    padding: 20px;
 }
 header{
-	padding-bottom: 18px;
+	padding-bottom: 10px;
 }
 .resume{
-	width: 174px;
-	height: 500px;
-	float: left;
+	width: 110px;    
+    float: left;
+    padding-left: 80px;
+    /*background: red;*/
+    padding-right: 30px;
+    padding-top: 22px;
+}
+
+.resume h2,
+.content h2
+{
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.resume ul li a{
+	color: #8e8e8e;
+	font-family: arial, sans-serif;
+	background: #ffffff;
+	padding: 8px;
+	display: block;
+	margin-bottom: 18px;
+	font-size: 12px;
+	text-align: center;
+
 }
 .aside{
 	width: 244px;
 	height: 500px;
 	float: right;
+	background: yellow;
 }
-.menu{
-	height: 500px;
-	width: 95px;
+.menu{	
+	width: 160px;
 	position: absolute;
-    left: -42px;
+    left: -119px;
     top: 0;
+    background: #2ac99a;
+}
+.wrap .menu li{
+	width: 95px;
+	height: 48px;
+	background: brown;
+	padding-right: 10px;
+    text-align: right;
+}
+.wrap .menu li a{
+	display: inline-block;
+	width: 95px;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+.wrap .menu li a:after{
+	content: "";
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border: 1px solid black;	
+	right: 8px;
+    position: absolute;
+}
+.resume a.dashboard:after{
+	background: url("../images/icons/home-white.png");
+	background: red !important;
 }
 .clear{
 	clear: both;
@@ -153,4 +223,25 @@ header{
 .second .strong{
 	display: inline-block;
 	vertical-align: middle;
+}
+.link{
+
+}
+.link li a{
+	color: #8e8e8e;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+.form-info{
+	padding: 13px;
+}
+.field{
+	width: 24%;
+    display: inline-block;
+}
+
+.field input[type="text"]{
+	width: 82%;
+    padding: 3px;
 }

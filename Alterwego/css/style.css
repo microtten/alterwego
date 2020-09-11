@@ -6,6 +6,9 @@ html,body{
 	padding: 0px;
 	margin: 0px;
 }
+body{
+
+}
 li{
 	/*display: none;*/
 	list-style: none;
@@ -26,8 +29,11 @@ a{
 	margin-top: 5px;
 	box-shadow: 2px 1px 4px 3px #f1f1f1;
 }
-.pad5{
+.padt5{
 	padding-top: 5px;
+}
+.pad5{
+	padding: 5px;
 }
 .pad13{
 	padding: 13px;
@@ -41,9 +47,25 @@ a{
 .display{
 	display: inline-block;
 }
+.noborder{
+	border: none !important;
+}
+.underline{
+	border: none;
+	border-bottom: 1px solid;
+	border-color: #9c9c9c;
+}
+.size12{
+	font-size: 12px;
+}
+select.size12,
+input.size12
+{
+	font-size: 11px;
+}
+
 .container{
 	
-
 }
 .logo{
 	text-align: right;
@@ -203,12 +225,12 @@ header{
 .first{
 	width: calc(100% - 324px);
 	display: inline-block;
-	padding-left: 5em;
+	padding-left: 55px;
 }
 .first span{
 	font-family: arial, sans;
 	font-size: 11px;
-	color: #7d7d7d;
+	color: #9c9c9c;
 }
 .first span i{
 	display: inline-block;
@@ -307,14 +329,14 @@ header{
 	background-position: -5px 0px;
 }
 .users .content{
-	width: 93%;
+	width: 94%;
     float: left;
-    height: 500px;    
+    /*height: 500px;    */
     padding-top: 15px;
     padding-left: 56px;
 }
 .users .content .title{
-	width: 100%;
+	/*width: 100%;*/
 }
 .users .content .col-list{
 	width: 8%;
@@ -325,11 +347,23 @@ header{
 }
 .listdata{
 	border: 1px solid black;
-    padding: 5px;
-    width: 87px;
+    padding: 0px;
+    width: 102px;
     display: inline-block;
     text-align: left;
 }
+.listdata:last-child{
+	width: 55px;
+}
 .listdata p {
     font-size: 12px;
+}
+.filter input,
+.filter select,
+.filter label
+{
+	color: #9c9c9c;
+}
+.filter input.underline{
+	width: 84px;
 }

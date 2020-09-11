@@ -35,6 +35,12 @@ a{
 .padt10{
 	padding-top: 10px;
 }
+.mar10{
+	margin-bottom: 10px;
+}
+.display{
+	display: inline-block;
+}
 .container{
 	
 
@@ -138,6 +144,10 @@ header{
 	text-align: center;
 
 }
+.cols{
+	display: inline-block;
+	padding-left: 18px;
+}
 .aside{
 	width: 244px;
 	height: 500px;
@@ -162,7 +172,7 @@ header{
 	/*background: brown;*/
 	padding-right: 10px;
     text-align: right;
-    padding-bottom: 24px;
+    padding-bottom: 21px;
 }
 .wrap .menu li a{
 	display: inline-block;
@@ -295,4 +305,31 @@ header{
 .bground:after{
 	background: url("../images/icons/sprite.jpg") no-repeat;
 	background-position: -5px 0px;
+}
+.users .content{
+	width: 93%;
+    float: left;
+    height: 500px;    
+    padding-top: 15px;
+    padding-left: 56px;
+}
+.users .content .title{
+	width: 100%;
+}
+.users .content .col-list{
+	width: 8%;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: left;
+}
+.listdata{
+	border: 1px solid black;
+    padding: 5px;
+    width: 87px;
+    display: inline-block;
+    text-align: left;
+}
+.listdata p {
+    font-size: 12px;
 }

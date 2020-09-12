@@ -33,7 +33,7 @@
 				</nav>
 				<header>
 					<div class="first">
-						<div class="bs fleft pad5">
+						<div class="bs fleft pl0 pad5">
 							<span><i class="fa fa-search"></i></span>
 							<span><i class="fa fa-times-circle"></i>Contrat : <strong>0672222222</strong></span>
 							<span><i class="fa fa-times-circle"></i>User : <strong>Nicole</strong></span>
@@ -52,27 +52,27 @@
 					</div>
 				</header>				
 				<section class="content">
-					<div class="mar10 filter">
-						<div class="display pad5 bs size12">
+					<div class="mb10 pad5 filter pl0">
+						<div class="display mt0 pad5 bs size12">
 							<select class="noborder size12">
 								<option>Date création</option>
 								<option>Date</option>
 							</select>
 						</div>
-						<div class="display pad5 bs size12">
+						<div class="display mt0 pad5 bs size12">
 							<label>du : </label>
 							<input class="underline size12" type="text" name=""/>
 							<label>au</label>
 							<input class="underline size12" type="text" name=""/>
 						</div>
-						<div class="display pad5 bs size12">
+						<div class="display mt0 pad5 bs size12">
 							<select class="noborder size12">
 								<option>10</option>
 								<option>20</option>
 								<option>30</option>
 							</select>
 						</div>
-						<div class="display pad5 bs size12">
+						<div class="display mt0 pad5 bs size12">
 							<select class="noborder size12">
 								<option>Toutes les colonnes</option>
 								<option>N colonnes</option>
@@ -81,7 +81,7 @@
 						</div>
 					</div>
 					<div class="title">
-						<div class="select-style">														
+						<div class="select-style mb10 p10">														
 							<div class="col-list">
 								<p>crée le <i></i></p>
 							</div>								
@@ -115,45 +115,340 @@
 						</div>						
 					
 					</div>
-					<div class="list">
-						<div class="listdata">
+					<div class="list-content bs">
+						<div class="list bs p15">
+							<div class="listdata">
 								<p>30/07/20 <strong>11:25</strong> <i></i></p>
-						</div>								
-						<div class="listdata">
-							<p>30/07/20 <strong>11:25</strong> <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>30/07/20 <strong>11:25</strong> <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>CU_917725 <strong>Nicola</strong> <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>0612121212 <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>oui <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>8-signé<i></i></p>
+							</div>
+							<div class="listdata">
+								<p>0 - Non saisie <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>Non traité <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>Attente signature <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>Sandero E Bvm 314 <i></i></p>
+							</div>
+							<div class="listdata">
+								<p><i></i></p>
+							</div>
 						</div>
-						<div class="listdata">
-							<p>CU_917725 <strong>Nicola</strong> <i></i></p>
-						</div>								
-						<div class="listdata">
-							<p>0612121212 <i></i></p>
-						</div>
-						<div class="listdata">
-							<p>oui <i></i></p>
-						</div>								
-						<div class="listdata">
-							<p>8-signé<i></i></p>
-						</div>
-						<div class="listdata">
-							<p>0 - Non saisie <i></i></p>
-						</div>								
-						<div class="listdata">
-							<p>Non traité <i></i></p>
-						</div>
-						<div class="listdata">
-							<p>Attente signature <i></i></p>
-						</div>								
-						<div class="listdata">
-							<p>Sandero E Bvm 314 <i></i></p>
-						</div>
-						<div class="listdata">
-							<p><i></i></p>
+						<div class="hidden p15" style="display: none">
+							<form>
+								<div class="tb-cell">
+									<label>Status : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Abandon : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Paie les loyers : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Offres assureurs :</label><input type="checkbox" />
+								</div>
+								
+								<div class="tb-cell">
+									<label>Scoring (mail au changement) :</label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<select class="noborder bs pad5">
+										<option>Accepté</option>
+										<option>refusé</option>
+									</select>
+								</div>
+								<div class="tb-group">
+									<div class="tb-group1">
+										<div class="tb1">
+											<label><strong>Genre</strong></label>
+											<select class="noborder bs pad5">
+												<option>Homme</option>
+												<option>Femme</option>
+											</select>
+										</div>
+										<div class="tb1">
+											<label><strong>Nom</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb1">
+											<label><strong>Prénom</strong></label>
+											<input class="noborder bs" type="text">
+										</div>
+										<div class="tb1">
+											<label><strong>E-mail</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+									</div>
+									<div class="tb-group2">
+										<div class="tb2">
+											<label><strong>Téléphone</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb2">
+											<label><strong>Adresse</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb2">
+											<label><strong>Ville & CP</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+									</div>	
+									<div class="btn-container">
+										<button class="btn shadow br-green">Modifier tous les paramètres</button>
+										<button class="btn shadow orange">Sauvegarder</button>
+									</div>
+								</div>
+								
+							</form>
 						</div>
 					</div>
-				</section>				
-				<div class="clear"></div>		
+					<div class="list-content bs">
+						<div class="list bs p15">
+							<div class="listdata">
+								<p>30/07/20 <strong>11:25</strong> <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>30/07/20 <strong>11:25</strong> <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>CU_917725 <strong>Nicola</strong> <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>0612121212 <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>oui <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>8-signé<i></i></p>
+							</div>
+							<div class="listdata">
+								<p>0 - Non saisie <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>Non traité <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>Attente signature <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>Sandero E Bvm 314 <i></i></p>
+							</div>
+							<div class="listdata">
+								<p><i></i></p>
+							</div>
+						</div>
+						<div class="hidden p15">
+							<form>
+								<div class="tb-cell">
+									<label>Status : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Abandon : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Paie les loyers : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Offres assureurs :</label><input type="checkbox" />
+								</div>
+								
+								<div class="tb-cell">
+									<label>Scoring (mail au changement) :</label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<select class="noborder bs pad5">
+										<option>Accepté</option>
+										<option>refusé</option>
+									</select>
+								</div>
+								<div class="tb-group">
+									<div class="tb-group1">
+										<div class="tb1">
+											<label><strong>Genre</strong></label>
+											<select class="noborder bs pad5">
+												<option>Homme</option>
+												<option>Femme</option>
+											</select>
+										</div>
+										<div class="tb1">
+											<label><strong>Nom</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb1">
+											<label><strong>Prénom</strong></label>
+											<input class="noborder bs" type="text">
+										</div>
+										<div class="tb1">
+											<label><strong>E-mail</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+									</div>
+									<div class="tb-group2">
+										<div class="tb2">
+											<label><strong>Téléphone</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb2">
+											<label><strong>Adresse</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb2">
+											<label><strong>Ville & CP</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+									</div>	
+									<div class="btn-container">
+										<button class="btn shadow br-green">Modifier tous les paramètres</button>
+										<button class="btn shadow orange">Sauvegarder</button>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+					<div class="list-content bs">
+						<div class="list bs p15">
+							<div class="listdata">
+								<p>30/07/20 <strong>11:25</strong> <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>30/07/20 <strong>11:25</strong> <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>CU_917725 <strong>Nicola</strong> <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>0612121212 <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>oui <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>8-signé<i></i></p>
+							</div>
+							<div class="listdata">
+								<p>0 - Non saisie <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>Non traité <i></i></p>
+							</div>
+							<div class="listdata">
+								<p>Attente signature <i></i></p>
+							</div>								
+							<div class="listdata">
+								<p>Sandero E Bvm 314 <i></i></p>
+							</div>
+							<div class="listdata">
+								<p><i></i></p>
+							</div>
+						</div>
+						<div class="hidden p15" style="display: none">
+							<form>
+								<div class="tb-cell">
+									<label>Status : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Abandon : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Paie les loyers : </label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<label>Offres assureurs :</label><input type="checkbox" />
+								</div>
+								
+								<div class="tb-cell">
+									<label>Scoring (mail au changement) :</label><input type="checkbox" />
+								</div>
+								<div class="tb-cell">
+									<select class="noborder bs pad5">
+										<option>Accepté</option>
+										<option>refusé</option>
+									</select>
+								</div>
+								<div class="tb-group">
+									<div class="tb-group1">
+										<div class="tb1">
+											<label><strong>Genre</strong></label>
+											<select class="noborder bs pad5">
+												<option>Homme</option>
+												<option>Femme</option>
+											</select>
+										</div>
+										<div class="tb1">
+											<label><strong>Nom</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb1">
+											<label><strong>Prénom</strong></label>
+											<input class="noborder bs" type="text">
+										</div>
+										<div class="tb1">
+											<label><strong>E-mail</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+									</div>
+									<div class="tb-group2">
+										<div class="tb2">
+											<label><strong>Téléphone</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb2">
+											<label><strong>Adresse</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+										<div class="tb2">
+											<label><strong>Ville & CP</strong></label>
+											<input type="text" class="noborder bs">
+										</div>
+									</div>	
+									<div class="btn-container">
+										<button class="btn shadow br-green">Modifier tous les paramètres</button>
+										<button class="btn shadow orange">Sauvegarder</button>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</section>			
+				<div class="clear"></div>
+				<div class="pager">
+					<span class="bs">Premier</span>
+					<span class="bs">Précédent</span>
+					<span class="bs">5</span>
+					<span class="bs">6</span>
+					<span class="bs">7</span>
+					<span class="bs">8</span>
+					<span class="bs">9</span>
+					<span class="bs active">10</span>
+					<span class="bs">Suivant</span>
+					<span class="bs">Dernier</span>
+				</div>		
 			</div>
-			<footer></footer>
+
+			<footer>
+				<p class="center">A propos d'Alterwego CCU - CGV - Documents</p>
+			</footer>
 		</div>
 	</body>
 </html>

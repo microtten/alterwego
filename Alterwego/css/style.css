@@ -16,6 +16,16 @@ li{
 a{
 	text-decoration: none;
 }
+.active{
+	background: #ffb300;
+	color: #ffffff;
+}
+select{
+	font-size: 11px;
+}
+.center{
+	text-align: center;
+}
 .fleft{
 	float: left;
 }
@@ -38,10 +48,16 @@ a{
 .pad13{
 	padding: 13px;
 }
+.p10{
+	padding: 10px;
+}
+.p15{
+	padding: 15px;
+}
 .padt10{
 	padding-top: 10px;
 }
-.mar10{
+.mb10{
 	margin-bottom: 10px;
 }
 .display{
@@ -50,6 +66,10 @@ a{
 .noborder{
 	border: none !important;
 }
+.mt0{
+	margin-top: 0px;
+}
+
 .underline{
 	border: none;
 	border-bottom: 1px solid;
@@ -58,11 +78,34 @@ a{
 .size12{
 	font-size: 12px;
 }
+.pl0{
+	padding-left: 0px;
+}
+.pl5{
+	padding-left: 5px;
+}
+.btn.br-green{
+	background: none;
+	border: 2px solid #4fdea0;
+	border-radius: 5px;
+	color: #4fdea0;
+	margin-right: 10px;
+}
+.btn.br-orange{
+	background: none;
+	border: 2px solid #ffb300;
+	border-radius: 5px;
+	color: #ffb300;
+}
+input:focus,{
+	border: none !important;
+}
 select.size12,
 input.size12
 {
 	font-size: 11px;
 }
+
 
 .container{
 	
@@ -130,7 +173,7 @@ input.size12
 .content{	
 	width: calc(100% - 504px);
     float: left;
-    height: 500px;
+    /*height: 500px;*/
     /*background: blue;*/
     padding: 20px;
 }
@@ -172,7 +215,7 @@ header{
 }
 .aside{
 	width: 244px;
-	height: 500px;
+	/*height: 500px;*/
 	float: right;
 	background: yellow;
 }
@@ -339,24 +382,35 @@ header{
 	/*width: 100%;*/
 }
 .users .content .col-list{
-	width: 8%;
+	width: 96px;
     padding: 5px;
-    border: 1px solid black;
-    display: inline-block;
+    /*border: 1px solid black;*/
+    display: table-cell;
     text-align: left;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: arial,sans-serif;
+}
+.list{
+	padding-left: 12px;
 }
 .listdata{
-	border: 1px solid black;
-    padding: 0px;
-    width: 102px;
-    display: inline-block;
+	/*border: 1px solid black;*/
+    width: 101px;
+    display: table-cell;
     text-align: left;
+    /* text-align: center; */
+    padding-left: 5px;
 }
 .listdata:last-child{
 	width: 55px;
 }
 .listdata p {
     font-size: 12px;
+}
+.filter{
+	
 }
 .filter input,
 .filter select,
@@ -366,4 +420,80 @@ header{
 }
 .filter input.underline{
 	width: 84px;
+}
+.users .col-list p{
+
+}
+.select-style{
+	background: #e2e3e4;
+	padding: 15px 10px;
+}
+.tb-cell{
+	display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.tb-cell input{
+	margin-left: 5px;
+	font-size: 12px;
+}
+.tb-cell select{
+	font-size: 11px;
+	width: 170px;
+}
+.tb-group1,
+.tb-group2{
+	margin-top: 20px;
+}
+.tb1,
+.tb2
+{
+	display: table-cell;
+}
+.tb1 select,
+.tb1 input
+{
+	width: 250px;
+	margin-right: 23px;
+}
+.tb1 input,
+.tb2 input{
+	padding: 5px;
+}
+.tb2 input{
+	width: 340px;
+    margin-right: 24px;
+}
+.tb1 label,
+.tb2 label
+{
+	font-size: 12px;
+	display: block;
+}
+.btn-container{
+	text-align: right;
+	width: 98%;
+	margin-top: 20px;
+}
+.pager{
+	text-align: center;
+}
+.pager span{
+	cursor: pointer;
+	padding: 5px;
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+footer{
+	font-size: 12px;
+}
+@media screen and (max-width: 1280px) {
+	.wrap{
+		width: 97%;
+	}
+	.menu{
+		width: 169px;
+		left: -121px;
+	}
 }

@@ -1,0 +1,117 @@
+.users .content{
+	width: 94%;
+    float: left;
+    /*height: 500px;    */
+    padding-top: 15px;
+    padding-left: 56px;
+}
+.users .content .title{
+	/*width: 100%;*/
+}
+.users .content .col-list{
+	width: 96px;
+    padding: 5px;
+    /*border: 1px solid black;*/
+    display: table-cell;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: arial,sans-serif;
+}
+.list{
+	padding-left: 12px;
+}
+.listdata{
+	/*border: 1px solid black;*/
+    width: 101px;
+    display: table-cell;
+    text-align: left;
+    /* text-align: center; */
+    padding-left: 5px;
+}
+.listdata:last-child{
+	width: 55px;
+}
+.listdata p {
+    font-size: 12px;
+}
+.filter{
+	
+}
+.filter input,
+.filter select,
+.filter label
+{
+	color: #9c9c9c;
+}
+.filter input.underline{
+	width: 84px;
+}
+.users .col-list p{
+
+}
+.select-style{
+	background: #e2e3e4;
+	padding: 15px 10px;
+}
+.tb-cell{
+	display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.tb-cell input{
+	margin-left: 5px;
+	font-size: 12px;
+}
+.tb-cell select{
+	font-size: 11px;
+	width: 170px;
+}
+.tb-group1,
+.tb-group2{
+	margin-top: 20px;
+}
+.tb1,
+.tb2
+{
+	display: table-cell;
+}
+.tb1 select,
+.tb1 input
+{
+	width: 250px;
+	margin-right: 23px;
+}
+.tb1 input,
+.tb2 input{
+	padding: 5px;
+}
+.tb2 input{
+	width: 340px;
+    margin-right: 24px;
+}
+.tb1 label,
+.tb2 label
+{
+	font-size: 12px;
+	display: block;
+}
+.btn-container{
+	text-align: right;
+	width: 98%;
+	margin-top: 20px;
+}
+.pager{
+	text-align: center;
+}
+.pager span{
+	cursor: pointer;
+	padding: 5px;
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+footer{
+	font-size: 12px;
+}

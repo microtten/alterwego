@@ -171,7 +171,7 @@ input.size12
 	overflow: hidden;
 }
 .content{	
-	width: calc(100% - 504px);
+	width: calc(100% - 465px);
     float: left;
     /*height: 500px;*/
     /*background: blue;*/
@@ -183,9 +183,9 @@ header{
 .resume{
 	width: 110px;    
     float: left;
-    padding-left: 80px;
+    padding-left: 57px;
     /*background: red;*/
-    padding-right: 30px;
+    padding-right: 14px;
     padding-top: 22px;
 }
 
@@ -217,7 +217,7 @@ header{
 	width: 244px;
 	/*height: 500px;*/
 	float: right;
-	background: yellow;
+	/*background: yellow;*/
 }
 .menu{	
 	width: 160px;

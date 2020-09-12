@@ -21,6 +21,7 @@
     font-family: arial,sans-serif;
     padding-right: 5px;
     padding-left: 5px;
+    position: relative;
 }
 .list{
 	padding-left: 12px;
@@ -40,6 +41,10 @@
 .listdata p {
     font-size: 12px;
 }
+.right i{
+	margin-right: 12px;
+
+}
 .filter{
 	
 }
@@ -54,8 +59,8 @@
 }
 .users .col-list p{
 	font-size: 10px;
-	padding
 }
+
 .title i{
 	background: #ffffff;
     font-size: 7px;
@@ -63,6 +68,46 @@
     margin-left: 4px;
     padding: 2px 3px;
     vertical-align: top;
+    float: right;
+}
+.hide{
+	display: none;
+}
+.col-list.dpdwn:hover .hide{
+	display: block;
+}
+.col-list .hide{
+	position: absolute;
+    width: 74%;
+    background: #ffffff;
+    border: 1px solid #b7b3b3;
+    border-top: none;
+    padding: 8px;
+}
+.col-list .hide label{
+	font-size: 8px;
+}
+.lot .hide{
+    left: -4px;
+    top: 25px;
+}
+.drpdwn p{
+	font-size: 12px;
+	color: #9c9c9c;
+}
+.drpdwn:hover .hide{
+	display: block;
+}
+.options{
+	width: 90%;
+    background: #ffffff;
+    z-index: 2;
+    left: 0px;
+    padding: 7px;
+    box-shadow: 1px 2px 10px #d4cece;
+    border-top: none;
+    top: 25px;
+    
 }
 .select-style{
 	background: #e2e3e4;

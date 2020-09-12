@@ -66,21 +66,33 @@
 							<label>au</label>
 							<input class="underline size12" type="text" name=""/>
 						</div>
-						<div class="display mt0 pad5 bs size12 bgwhite">
-							<i class="fa fa-bars"></i>
-							<select class="noborder size12">
-								<option>10</option>
-								<option>20</option>
-								<option>30</option>
-							</select>
+						<div class="display mt0 pad5 bs size12 bgwhite drpdwn relative lot">
+							<i class="fa fa-bars pr5"></i>
+							<p class="display">10<i class="fa fa-check pl10"></i></p>
+							<div class="hide options padt5 absolute">
+								<p class="pb5"><label class="display vm">10</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">20</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">30</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">40</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">50</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">100</label><input class="display vm fright" type="checkbox"></p>
+							</div>
 						</div>
-						<div class="display mt0 pad5 bs size12 bgwhite">
+						<div class="display mt0 pad5 bs size12 bgwhite drpdwn relative">
 							<i class="fa fa-bars rotate"></i>
-							<select class="noborder size12">
-								<option>Toutes les colonnes</option>
-								<option>N colonnes</option>
-								<option>N colonnes</option>
-							</select>
+							<p class="display">Toutes les colonnes <i class="fa fa-check"></i></p>
+							<div class="hide options padt5 absolute">
+								<p class="pb5"><label class="display vm">Crée le</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Modifié le</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Identié</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Contact</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Activé</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Yousign</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Pre-auth</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Scoring</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Dernier CO</label><input class="display vm fright" type="checkbox"></p>
+								<p class="pb5"><label class="display vm">Dernière OFR</label><input class="display vm fright" type="checkbox"></p>
+							</div>
 						</div>
 					</div>
 					<div class="title">
@@ -97,20 +109,40 @@
 							<div class="col-list">
 								<p>contact <i class="fa fa-sort"></i></p>
 							</div>
-							<div class="col-list">
+							<div class="col-list dpdwn">
 								<p class="line">activé <i class="fa fa-check"></i></p>
+								<div class="hide">
+									<p class="pb5"><label class="display vm">Oui</label><input class="display vm fright" type="checkbox"></p>
+									<p class="pb5"><label class="display vm">Non</label><input class="display vm fright" type="checkbox"></p>
+								</div>							
 							</div>								
-							<div class="col-list">
+							<div class="col-list dpdwn">
 								<p class="line">yousign<i class="fa fa-check"></i></p>
+								<div class="hide">
+									<p class="pb5"><label class="display vm">Oui</label><input class="display vm fright" type="checkbox"></p>
+									<p class="pb5"><label class="display vm">Non</label><input class="display vm fright" type="checkbox"></p>
+								</div>	
 							</div>
-							<div class="col-list">
+							<div class="col-list dpdwn">
 								<p class="line">pre-auth <i class="fa fa-check"></i></p>
+								<div class="hide">
+									<p class="pb5"><label class="display vm">Accepté</label><input class="display vm fright" type="checkbox"></p>
+									<p class="pb5"><label class="display vm">Réfusé</label><input class="display vm fright" type="checkbox"></p>
+								</div>	
 							</div>								
-							<div class="col-list">
+							<div class="col-list dpdwn">
 								<p class="line">scoring <i class="fa fa-check"></i></p>
+								<div class="hide">
+									<p class="pb5"><label class="display vm">Accepté</label><input class="display vm fright" type="checkbox"></p>
+									<p class="pb5"><label class="display vm">Non traité</label><input class="display vm fright" type="checkbox"></p>
+								</div>	
 							</div>
-							<div class="col-list">
+							<div class="col-list dpdwn">
 								<p class="line">dernier co <i class="fa fa-check"></i></p>
+								<div class="hide">
+									<p class="pb5"><label class="display vm">Signature</label><input class="display vm fright" type="checkbox"></p>
+									<p class="pb5"><label class="display vm">VIN</label><input class="display vm fright" type="checkbox"></p>
+								</div>	
 							</div>								
 							<div class="col-list">
 								<p>dernière ofr <i class="fa fa-check"></i></p>
@@ -139,19 +171,19 @@
 								<p class="orange">Non<i></i></p>
 							</div>
 							<div class="listdata">
-								<p class="orange">0 - Non saisie <i></i></p>
+								<p class="green">8 - accepté <i></i></p>
 							</div>								
 							<div class="listdata">
 								<p class="green">Accepté <i></i></p>
 							</div>
 							<div class="listdata">
-								<p class="orange">Attente signature <i></i></p>
+								<p>Attente signature <i></i></p>
 							</div>								
 							<div class="listdata">
 								<p>Sandero E Bvm 314 <i></i></p>
 							</div>
 							<div class="listdata">
-								<p><i></i></p>
+								<p class="right"><i class="fa fa-edit"></i><i class="fa fa-plus-circle"></i></p>
 							</div>
 						</div>
 						<div class="hidden p15 bgwhite" style="display: none">
@@ -241,10 +273,10 @@
 								<p class="green">oui <i></i></p>
 							</div>								
 							<div class="listdata">
-								<p>8-signé<i></i></p>
+								<p class="green">8-signé<i></i></p>
 							</div>
 							<div class="listdata">
-								<p>0 - Non saisie <i></i></p>
+								<p class="orange">0 - Non saisie <i></i></p>
 							</div>								
 							<div class="listdata">
 								<p>Non traité <i></i></p>
@@ -256,7 +288,7 @@
 								<p>Sandero E Bvm 314 <i></i></p>
 							</div>
 							<div class="listdata">
-								<p><i></i></p>
+								<p class="right"><i class="fa fa-edit"></i><i class="fa fa-plus-circle"></i></p>
 							</div>
 						</div>
 						<div class="hidden p15 bgwhite">
@@ -361,7 +393,7 @@
 								<p>Sandero E Bvm 314 <i></i></p>
 							</div>
 							<div class="listdata">
-								<p><i></i></p>
+								<p class="right"><i class="fa fa-edit"></i><i class="fa fa-plus-circle"></i></p>
 							</div>
 						</div>
 						<div class="hidden p15 bgwhite" style="display: none">

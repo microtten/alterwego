@@ -16,10 +16,14 @@ li{
 a{
 	text-decoration: none;
 }
+.pb5{
+	padding-bottom: 5px;
+}
 .active{
 	background: #ffb300;
 	color: #ffffff;
 }
+
 select{
 	font-size: 11px;
 }
@@ -42,6 +46,9 @@ select{
 .padt5{
 	padding-top: 5px;
 }
+.pr5{
+	padding-right: 5px;
+}
 .pad5{
 	padding: 5px;
 }
@@ -59,6 +66,9 @@ select{
 }
 .mb10{
 	margin-bottom: 10px;
+}
+.pl10{
+	padding-left: 10px;
 }
 .display{
 	display: inline-block;
@@ -104,6 +114,12 @@ select{
 	transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
 }
 .filter i,
 .title i
@@ -244,6 +260,7 @@ header{
     top: 0;
     background: #4fdea0;
     transition: 500ms ease-in-out;
+    z-index: 2;
 }
 .menu:hover{
 	left: 0px;
@@ -303,6 +320,9 @@ header{
 }
 .orange{
 	color: #ffb300;
+}
+.right{
+	text-align: right;
 }
 .btn{
 	padding: 7px;

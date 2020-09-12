@@ -63,6 +63,9 @@ select{
 .display{
 	display: inline-block;
 }
+.vm{
+	vertical-align: middle;
+}
 .noborder{
 	border: none !important;
 }

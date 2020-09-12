@@ -4,6 +4,7 @@
     /*height: 500px;*/
     padding-top: 15px;
     padding-left: 56px;
+    background: #f7f7f7;
 }
 .users .content .title{
 	/*width: 100%;*/
@@ -23,6 +24,7 @@
 }
 .list{
 	padding-left: 12px;
+	margin-bottom: 2px;
 }
 .listdata{
 	/*border: 1px solid black;*/

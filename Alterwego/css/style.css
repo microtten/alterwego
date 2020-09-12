@@ -122,7 +122,9 @@ input.size12
 {
 	font-size: 11px;
 }
-
+.bgwhite{
+	background: #ffffff;
+}
 .container{
 	
 }
@@ -295,6 +297,12 @@ header{
 	display: inline-block;
 	padding: 5px;
 	
+}
+.green{
+	color: #4fdea0;
+}
+.orange{
+	color: #ffb300;
 }
 .btn{
 	padding: 7px;

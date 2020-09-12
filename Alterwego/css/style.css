@@ -100,6 +100,20 @@ select{
 	border-radius: 5px;
 	color: #ffb300;
 }
+.rotate{
+	transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+.filter i,
+.title i
+{
+	color: #9c9c9c;
+}
+.line{
+	border-bottom: 1px solid #9a9a9a;
+    padding-bottom: 5px;
+}
 input:focus,{
 	border: none !important;
 }
@@ -108,7 +122,6 @@ input.size12
 {
 	font-size: 11px;
 }
-
 
 .container{
 	

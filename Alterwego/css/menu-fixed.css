@@ -1,21 +1,107 @@
-header{    
-    box-shadow: 0px 0px 15px 5px #d2d2d2;
-    background: white;
-    position: fixed;
-    width: 94%;
-    z-index: 2;
-    top: 0;
-    padding-right: 11px;
-    padding-top: 7px;
-    padding-bottom: 1px;
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+	padding-right:0!important;
+	padding-left:0!important;
 }
-.content{
-	width: calc(100% - 496px);
-    float: left;
-    padding: 80px 8px;
-    background-color: #f5f7fa;
-    position: relative;
-    right: -186px;
+*,::after, ::before {
+    box-sizing: initial !important;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ol, ul {
+    padding-left: 0 !important;
+}
+html,body{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+li{
+	/*display: none;*/
+	list-style: none;
+}
+.row{
+	flex-wrap: nowrap !important;
+}
+a{
+	text-decoration: none !important;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.padr10{
+	padding-right: 15px;
+}
+.bs{
+	margin-top: 5px;
+	box-shadow: 2px 1px 4px 3px #f1f1f1;
+}
+.pad5{
+	padding-top: 5px;
+}
+.pad13{
+	padding: 13px;
+}
+.padt10{
+	padding-top: 10px;
+}
+
+.logo{
+	text-align: right;
+	/*padding-top: 5px;*/
+	/*padding-bottom: 18px;*/
+	background: #ffffff;
+
+}
+.logo h1{
+	margin-bottom: 20px;
+}
+.logo img{
+	width: 117px;
+	height: auto;
+}
+.icon{
+	width: 12px;
+	height: auto;
+}
+.bground.mod:after{
+	background-position: -5px -37px;
+}
+.bground.offres:after{
+	background-position: -5px -75px;
+}
+.bground.vin:after{
+	background-position: -5px -113px;
+}
+.bground.users:after{
+	background-position: -5px -152px;
+}
+.bground.call:after{
+	background-position: -5px -190px;
+}
+.bground.contrats:after{
+	background-position: -5px -229px;
+}
+.bground.parc:after{
+	background-position: -5px -268px;
+}
+.bground.payd:after{
+	background-position: -5px -307px;
+}
+.bground.advis:after{
+	background-position: -5px -347px;
+}
+.bground.attr:after{
+	background-position: -5px -383px;
+}
+.bground.faq:after{
+	background-position: -5px -425px;
+}
+.bground.stat:after{
+	background-position: -5px -462px;
 }
 .wrap{
 	width: 95%;
@@ -23,41 +109,339 @@ header{
 	position: relative;
 	overflow: hidden;
 }
+.content{
+	width: calc(100% - 496px);
+  float: left;
+  padding: 80px 8px;
+  background-color: #f5f7fa;
+  position: relative;
+  right: -186px;
+}
+header{
+	box-shadow: 0px 0px 15px 5px #d2d2d2;
+  background: white;
+  position: fixed;
+  width: 94%;
+  z-index: 2;
+  top: 0;
+  padding-right: 11px;
+  padding-top: 7px;
+  padding-bottom: 1px;
+}
+.resume{
+  width: 110px;
+  float: left;
+  padding-left: 67px;
+  padding-right: 15px;
+  padding-top: 80px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+}
+
+.resume h2,
+.content h2
+{
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.resume ul li a{
+	color: #8e8e8e;
+	font-family: arial, sans-serif;
+	background: #ffffff;
+	padding: 8px;
+	display: block;
+	margin-bottom: 18px;
+	font-size: 12px;
+	text-align: center;
+
+}
 .aside{
 	width: 264px;
 	float: right;
 	position: fixed;
-  	right: 32px;
+  right: 32px;
+}
+.menu{
+	width: 160px;
+	position: absolute;
+  left: -119px;
+  top: 0;
+  background: #4fdea0;
+  transition: 500ms ease-in-out;
+  height: 100%;
+  z-index: 3;
+}
+.menu:hover{
+	left: 0px;
+	transition: 500ms ease-in-out;
+}
+.wrap .menu li{
+	width: 95px;
+	/*height: 48px;*/
+	/*background: brown;*/
+	padding-right: 10px;
+    text-align: right;
+    padding-bottom: 24px;
+}
+.wrap .menu li a{
+	display: inline-block;
+	width: 95px;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+.wrap .menu li a:after{
+	content: "";
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	/*border: 1px solid black;	*/
+	right: 8px;
+    position: absolute;
+}
+
+.clear{
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+}
+.first{
+  width: calc(100% - 390px);
+  display: inline-block;
+  padding-left: 6.5em;
+}
+.first span{
+	font-family: arial, sans;
+	font-size: 11px;
+	color: #7d7d7d;
+}
+.first span i{
+	display: inline-block;
+	padding: 5px;
+
+}
+.btn-header{
+	padding: 3px !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    margin-top: 5px;
+}
+.green{
+	background: #4fdea0 !important;
+}
+.btn.green{
+	background: #4fdea0;
+	color: #fff;
+}
+.orange{
+	background: #ffb300 !important;
+}
+.first button{
+	margin-left: 10px;
+}
+.btn i{
+	padding-right: 5px;
+}
+.second{
+  width: 286px;
+  display: inline-block;
+  height: auto;
+}
+.second .notif{
+	padding: 0 10px;
+	position: relative
+}
+.notif span{
+	position: absolute;
+	right: 6px;
+	display: inline-block;
+	background: #ffb300;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	color: #ffffff;
+	text-align: center;
+
+}
+.second .notif i{
+	color: #7d7d7d;
+	background: none;
+	font-size: 16px
+}
+.second p{
+	height: auto;
+	font-size: 10px;
+}
+
+.second .mini{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background: gray;
+	margin-right: 5px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.second .strong{
+	display: inline-block;
+	vertical-align: middle;
+}
+.link{
+
+}
+.link li a{
+	color: #8e8e8e;
+	text-transform: uppercase;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+.form-info{
+	padding: 13px;
+	background-color: #fff;
+}
+.form5 .form-control{
+	width: 47% !important ;
+}
+.form1 ,.form5 label{
+	padding: 9px 0;
+}
+.statut,.abandon{
+	width: 11% !important;
+}
+.scoring{
+	width: 47% !important;
+}
+.field{
+	width: 25%;
+    display: inline-block;
+}
+
+.field input[type="text"]{
+	width: 82%;
+    padding: 3px;
+}
+.email-field{
+	width: 82% !important;
+}
+.bground:after{
+	background: url("images/icons/sprite.jpg") no-repeat;
+	background-position: -5px 0px;
+}
+
+.info-supp{
+	width: 33%;
+    display: inline-block;
+}
+
+.info-supp input[type="text"]{
+	width: 90%;
+    padding: 3px;
+}
+
+.not-bs{
+	margin-top: 24px !important;
+}
+
+.info-bq-detail{
+	width: 32% !important;
+	margin-right: 12px;
+}
+.form-data,.form-control{
+	font-size: 11px !important;
+}
+.form-data label{
+	font-weight: bold;
+}
+.info-password{
+	width: 36%;
+	margin-right: 12px;
+}
+.conf-newpwd{
+	font-size: 11px !important;
+}
+.info-source div{
+	margin-right: 19px;
+}
+.info-source .urlss{
+	width: 26%!important;
+}
+.change-btn{
+	padding-top: 14px !important;
+}
+.list-histo{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #fff;
+	margin-bottom: 12px;
+}
+.docx-content{
+	background-color: #fff;
+}
+.document{
+	border-bottom: 2px solid #e3e8ed;
+	border-top: 2px solid #e3e8ed;
+	position: relative;
+	margin-top: 64px;
+	margin-bottom: 64px;
+	padding-bottom: 48px;
+	padding-top: 48px;
+}
+
+.row{
+	--bs-gutter-x:0!important;
+	--bs-gutter-y:0!important;
+}
+.btnlast{
+	background-color: #ffb300 !important;
+	color: #fff !important;
+	font-size: 11px !important;
+}
+.document .btnlast,.save .btnlast{
+	position: absolute;
+	left: 33%;
+}
+.save{
+	position: relative;
+}
+.docx-content{
+	padding-bottom: 14px;
+	padding-top: 14px;
+	margin-right: 12px;
+	width: 24%;
+	box-shadow: 2px 1px 4px 3px #f1f1f1;
+}
+.list-docx .docx-content:last-child{
+	margin:0 !important;
 }
 
 .wysig{
 	background-color: #eaeef4;
-    border: 1px solid #eaeef4;
-    padding-top: 80px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+  border: 1px solid #eaeef4;
+  padding-top: 80px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	header{
+		box-shadow: none;
+	}
+	.first{
+		display: none;
+	}
+	.aside{
+		display: none;
+	}
+	.content{
+		width: calc(100% - 208px);
+	}
 }
-.resume{
-	width: 110px;
-    float: left;
-    padding-left: 67px;
-    padding-right: 15px;
-    padding-top: 80px;
-    background-color: #fff;
-    position: fixed;
-    z-index: 1;
-}
-.first{
-	width: calc(100% - 390px);
-    display: inline-block;
-    padding-left: 6.5em;
-    background: red;
-}
-.second{
-   width: 286px;
-    float: right;
-    display: inline-block;
-    height: auto;
 
-}
+/* Large devices (desktops, 992px and up)*/

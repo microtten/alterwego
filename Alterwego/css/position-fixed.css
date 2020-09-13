@@ -427,6 +427,12 @@ header{
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
+.content input,
+.content select,
+.wysig input,
+.wysig textarea{
+  padding-left: 5px !important;
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {

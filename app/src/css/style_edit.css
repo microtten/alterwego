@@ -109,26 +109,27 @@ a{
 }
 .wrap{
 	width: 95%;
-	margin: 18px auto;
+	margin: 0px auto;
 	position: relative;
 	overflow: hidden;
 }
 .content{
 	width: calc(100% - 504px);
     float: left;
-    padding: 20px 8px;
+    padding: 5em 8px;
     background-color: #f5f7fa;
 }
 header{
 	padding-bottom: 10px;
-	box-shadow: 10px 0px 0px 0px #f5f7fa;
+	box-shadow: 2px 0px 0px 0px #f5f7fa;
 }
+
 .resume{
 	width: 110px;
     float: left;
-    padding-left: 67px;
+    padding-left: 62px;
 	padding-right: 15px;
-    padding-top: 22px;
+    padding-top: 5em;
     background-color: #fff;
 }
 
@@ -193,19 +194,25 @@ header{
 	right: 8px;
     position: absolute;
 }
-
+.wrap .menu li.no-icon{
+	width: 100%;    
+    padding: 14px 0;
+    margin-bottom: 10px;
+}
+.wrap .menu li.no-icon a:after{
+	display: none;
+}
 .clear{
 	clear: both;
 	width: 100%;
 	overflow: hidden;
 }
 .first{
-	width: calc(100% - 390px);
-	display: inline-block;
-	padding-left: 5em;
+	width: calc(100% - 344px);
+    display: inline-block;
+    padding-left: 60px;
 }
 .first span{
-	font-family: arial, sans;
 	font-size: 11px;
 	color: #7d7d7d;
 }
@@ -238,11 +245,11 @@ header{
 	padding-right: 5px;
 }
 .second{
-	width: 299px;
-	height: 15px;
-	float: right;
-	display: inline-block;
-	height: auto;
+	width: 270px;
+    float: right;
+    display: inline-block;
+    height: auto;
+    padding: 3px 7px;
 }
 .second .notif{
 	padding: 0 10px;
@@ -415,7 +422,7 @@ header{
 .wysig{
 	background-color: #eaeef4;
 	border: 1px solid #eaeef4;
-	padding-top: 30px !important;
+	padding-top: 5em !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
 }

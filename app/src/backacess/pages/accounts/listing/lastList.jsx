@@ -67,20 +67,20 @@ const LastList = function(){
 					</div>
 					<div className={shMinus == user._id ? "hidden p15 bgwhite" : "d-none"}>
 						<div className="tb-cell">
-							<label className="display vm">Status : </label><input type="checkbox display vm" />
+							<label className="display vm">Status : </label><input type="checkbox" className="display vm" />
 						</div>
 						<div className="tb-cell">
-							<label className="display vm">Abandon : </label><input type="checkbox display vm" />
+							<label className="display vm">Abandon : </label><input type="checkbox" className="display vm" />
 						</div>
 						<div className="tb-cell">
-							<label className="display vm">Paie les loyers : </label><input type="checkbox display vm" />
+							<label className="display vm">Paie les loyers : </label><input type="checkbox" className="display vm" />
 						</div>
 						<div className="tb-cell">
-							<label className="display vm">Offres assureurs :</label><input type="checkbox display vm" />
+							<label className="display vm">Offres assureurs :</label><input type="checkbox" className="display vm" />
 						</div>
 
 						<div className="tb-cell">
-							<label className="display vm">Scoring (mail au changement) :</label><input type="checkbox display vm" />
+							<label className="display vm">Scoring (mail au changement) :</label><input type="checkbox" className="display vm" />
 						</div>
 						<div className="tb-cell">
 							<select className="noborder bs pad5">

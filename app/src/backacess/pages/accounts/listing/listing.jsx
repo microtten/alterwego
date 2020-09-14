@@ -3,8 +3,9 @@ import React from "react";
 import Header from "../../../components/header";
 import Sidebar from "../../../components/navigation/sidebar";
 import ContentList from "./contentList";
-import "../../../../../css/user.css";
-import "../../../../../css/style.css";
+import "../../../../css/user.css";
+import "../../../../css/style.css";
+
 
 
 const Listing = function(){

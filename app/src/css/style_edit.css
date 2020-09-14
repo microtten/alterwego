@@ -467,7 +467,8 @@ header{
 @media (min-width: 992px) and (max-width: 1199px) {
 	.btn-header {
     padding: 0px !important;
-    font-size: 12px;
+	font-size: 12px;
+	}
 }
 @media screen and (max-width: 1280px) {
     .wrap{

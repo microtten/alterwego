@@ -2,10 +2,10 @@ import React from "react";
 // import { Meteor } from "meteor/meteor";
 
 
-const Contrat = function(){
+const Contrats = function(){
 	return(
 		<div>Hello Contrat</div>
 	)
 };
 
-export default Contrat;
+export default Contrats;

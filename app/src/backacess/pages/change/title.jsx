@@ -1,5 +1,5 @@
 import React ,{useState} from "react";
-import "../../../../css/change.css";
+import "../../../css/change.css";
 
 const Title = function ({onChangeSub}) {
 	const [changeShow, setchangeShow] = useState(0);

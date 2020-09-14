@@ -1,7 +1,7 @@
 import React from "react";
 import Wysiwyg from "./wysiwyg";
 
-import "../../../../css/change.css";
+import "../../../css/change.css";
 
 const Email = function () {
 	const onSend = function () {

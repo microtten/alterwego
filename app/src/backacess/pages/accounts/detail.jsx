@@ -6,7 +6,7 @@ import Exchange from "./details/exchange";
 import Resume from "./details/resume";
 import Header from "../../components/header";
 import Sidebar from "../../components/navigation/sidebar";
-import "../../../../css/style_edit.css";
+import "../../../css/style_edit.css";
 
 const Detail = function(){
 	return (

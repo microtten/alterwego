@@ -209,12 +209,13 @@ input.size12
 .wrap{
 	width: 90%;
 	margin: 0px auto;
-	position: relative;
-	overflow: hidden;
+	/*position: relative;*/
+	overflow: auto;
+	
 }
 .content{
 	width: calc(100% - 465px);
-    float: left;
+    /*float: left;*/
     /*height: 500px;*/
     /*background: blue;*/
     padding: 20px;
@@ -224,7 +225,7 @@ header{
 }
 .resume{
 	width: 110px;
-    float: left;
+    /*float: left;*/
     padding-left: 52px;
     /*background: red;*/
     padding-right: 14px;
@@ -258,7 +259,7 @@ header{
 .aside{
 	width: 244px;
 	/*height: 500px;*/
-	float: right;
+	/*float: right;*/
 	/*background: yellow;*/
 }
 .menu{

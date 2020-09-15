@@ -210,6 +210,9 @@ header{
 	width: 98%;
 	margin-top: 20px;
 }
+.users .wrap{
+    display: inherit;
+}
 .pager{
 	text-align: center;
 }

@@ -55,7 +55,7 @@ const Content = function(){
 						</div>
 						<div className="form1 scoring">
 						  	<label htmlFor="scoring">Scoring (mail au changement) : </label>
-						    <select className="form-control" id="scoring" name="scoring" ref={register()}>
+						    <select className="border pad5" id="scoring" name="scoring" ref={register()}>
 						      <option value="traite">Traité</option>
 						      <option value="non">Non-traité</option>
 						    </select>

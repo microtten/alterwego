@@ -25,7 +25,7 @@ const Content = function(){
 								<label className="form-check-label display vm" htmlFor="statut">Statut :</label>
 								<input
 									type="checkbox"
-									className="form-check-input display vm"
+									className="display vm"
 									id="statut"
 									name="statut"
 									ref={register()}
@@ -34,7 +34,7 @@ const Content = function(){
 						<div className="form1 abandon tb-cell">
 								<label className="form-check-label display vm" htmlFor="abandon">Abandon :</label>
 								<input type="checkbox"
-									className="form-check-input display vm"
+									className="display vm"
 									id="abandon" name="abandon"
 									ref={register()}
 								/>
@@ -42,7 +42,7 @@ const Content = function(){
 						 <div className="form1 tb-cell">
 								<label className="form3-label display vm" htmlFor="paie">Paie les loyers:</label>
 								<input type="checkbox"
-									className="form-check-input display vm"
+									className="display vm"
 									id="paie" name="loyers"
 									ref={register()}
 									/>
@@ -50,7 +50,7 @@ const Content = function(){
 						<div className="form1 tb-cell">
 								<label className="form-check-label display vm" htmlFor="offre">Offre Assureurs:</label>
 								<input type="checkbox"
-									className="form-check-input display vm"
+									className="display vm"
 									id="offre" name="assureur" />
 						</div>
 						<div className="form1 scoring">
@@ -97,7 +97,7 @@ const Content = function(){
 						<div className="info-bq d-flex">
 							<div className="info-bq-detail">
 							    <label htmlFor="banque">Banque</label>
-							    <select className="form-control" id="banque" name="banque" ref={register()}>
+							    <select className="" id="banque" name="banque" ref={register()}>
 							      <option value="hsbc">HSBC</option>
 							      <option value="bfv">BFV</option>
 							      <option value="credit">CREDIT AGRICOLE</option>
@@ -105,14 +105,14 @@ const Content = function(){
 							</div>
 							<div className="info-bq-detail">
 							    <label htmlFor="anciennete">Ancienneté</label>
-							    <select className="form-control" id="anciennete" name="anciennete" ref={register()}>
+							    <select className="" id="anciennete" name="anciennete" ref={register()}>
 							      <option value="2018">2018</option>
 							      <option value="2017">2017</option>
 							    </select>
 							</div>
 							<div className="info-bq-detail">
 							    <label htmlFor="situation">Situation permis</label>
-							    <select className="form-control" id="situation" name="situation" ref={register()}>
+							    <select className="" id="situation" name="situation" ref={register()}>
 							      <option value="2ans">2 ans ou plus jamais suspendu</option>
 							      <option value="3ans">3 ans</option>
 							    </select>
@@ -123,7 +123,7 @@ const Content = function(){
 						<div className="col-sm-4">
 							<label htmlFor="og_source">OG_Source</label>
 							<input type="text"
-								className="form-control"
+								className=""
 								id="og_source"
 								placeholder=""
 								name="source"
@@ -133,7 +133,7 @@ const Content = function(){
 							<div className="col-sm-4">
 								<label htmlFor="cclid">CClid</label>
 								<input type="text"
-									className="form-control"
+									className=""
 									id="cclid" placeholder=""
 									ref={register()}
 									name="cclid"
@@ -142,7 +142,7 @@ const Content = function(){
 							<div className="col-sm-3 urlss">
 								<label htmlFor="url_source">URL_Source</label>
 								<input type="text"
-									className="form-control"
+									className=""
 									id="url_source" placeholder=""
 									name="url"
 									ref={register()}

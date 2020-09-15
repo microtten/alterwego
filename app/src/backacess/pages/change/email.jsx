@@ -16,7 +16,7 @@ const Email = function () {
 			<div className="mb-2">
 				<input
 					type="email"
-					className="form-control"
+					className=""
 					placeholder="Exemple:Assurrance"
 				/>
 			</div>
@@ -24,7 +24,7 @@ const Email = function () {
 			<div className="mb-2">
 				<input
 					type="email"
-					className="form-control"
+					className=""
 					placeholder="Demande d'information supplementaire"
 				/>
 			</div>

@@ -126,6 +126,9 @@ strong{
     background-color: #f5f7fa;
     overflow: auto;    
 }
+.content::-webkit-scrollbar {
+    display: none;
+}
 header{
 	padding-bottom: 10px;
 	box-shadow: 2px 0px 0px 0px #f5f7fa;
@@ -170,7 +173,7 @@ header{
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0px;
-	
+
 }
 .menu{
 	width: 42px;

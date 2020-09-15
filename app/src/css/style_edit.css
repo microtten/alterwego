@@ -1,31 +1,35 @@
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-	padding-right:0!important;
-	padding-left:0!important;
+	padding-right:0;
+	padding-left:0;
 }
 *,::after, ::before {
-    box-sizing: initial !important;
+    box-sizing: initial ;
 }
 *{
 	padding: 0px;
 	margin: 0px;
 }
 ol, ul {
-    padding-left: 0 !important;
+    padding-left: 0 ;
 }
 html,body{
-	padding: 0px !important;
-	margin: 0px !important;
+	padding: 0px ;
+	margin: 0px ;
 }
 li{
 	/*display: none;*/
 	list-style: none;
 }
 .row{
-	flex-wrap: nowrap !important;
+	flex-wrap: nowrap;
 }
 a{
-	text-decoration: none !important;
+	text-decoration: none;
 }
+strong{
+	font-weight: 500;
+}
+
 .fleft{
 	float: left;
 }
@@ -51,14 +55,10 @@ a{
 }
 .container{
 
-
 }
 .logo{
-	text-align: right;
-	/*padding-top: 5px;*/
-	/*padding-bottom: 18px;*/
+	text-align: right;	
 	background: #ffffff;
-
 }
 .logo h1{
 	margin-bottom: 20px;
@@ -114,9 +114,9 @@ a{
 	overflow: hidden;
 }
 .content{
-	width: calc(100% - 504px);
+	width: calc(100% - 515px);
     float: left;
-    padding: 5em 8px;
+    padding: 5em 16px;
     background-color: #f5f7fa;
 }
 header{
@@ -156,6 +156,7 @@ header{
 .aside{
 	width: 264px;
 	float: right;
+	padding: 5em 15px;
 }
 .menu{
 	width: 160px;
@@ -195,8 +196,8 @@ header{
     position: absolute;
 }
 .wrap .menu li.no-icon{
-	width: 100%;    
-    padding: 14px 0;
+	width: 100%;
+    padding: 18.5px 0;
     margin-bottom: 10px;
 }
 .wrap .menu li.no-icon a:after{
@@ -212,6 +213,9 @@ header{
     display: inline-block;
     padding-left: 60px;
 }
+.first .infobar{
+	padding: 1px 5px 4px 5px;
+}
 .first span{
 	font-size: 11px;
 	color: #7d7d7d;
@@ -222,21 +226,27 @@ header{
 
 }
 .btn-header{
-	padding: 3px !important;
-    color: #ffffff !important;
-    border: none !important;
-    border-radius: 5px !important;
+	padding: 3px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
     margin-top: 5px;
+    padding: 6px 25px;
+    font-size: 12px
+}
+.btn-header i{
+	margin-right: 5px;
+	font-size: 12px;
 }
 .green{
-	background: #4fdea0 !important;
+	background: #4fdea0;
 }
 .btn.green{
 	background: #4fdea0;
 	color: #fff;
 }
 .orange{
-	background: #ffb300 !important;
+	background: #ffb300;
 }
 .first button{
 	margin-left: 10px;
@@ -301,20 +311,24 @@ header{
 	font-size: 12px;
 }
 .form-info{
-	padding: 13px;
-	background-color: #fff;
+	padding: 8px 15px;
+    background-color: #fff;
 }
 .form5 .form-control{
-	width: 47% !important ;
+	width: 47%;
 }
 .form1 ,.form5 label{
 	padding: 9px 0;
 }
-.statut,.abandon{
-	width: 11% !important;
-}
+
 .scoring{
-	width: 47% !important;
+	display: inline;
+	margin-left: 20px;	
+}
+.scoring select{
+	display: inline;
+	width: 28%;
+	margin-left: 5px;
 }
 .field{
 	width: 25%;
@@ -326,7 +340,7 @@ header{
     padding: 3px;
 }
 .email-field{
-	width: 82% !important;
+	width: 82%;
 }
 /*.bground:after{
 	background: url("images/icons/sprite.jpg") no-repeat;
@@ -344,34 +358,35 @@ header{
 }
 
 .not-bs{
-	margin-top: 24px !important;
+	margin-top: 24px;
 }
 
 .info-bq-detail{
-	width: 32% !important;
+	width: 32% ;
 	margin-right: 12px;
 }
 .form-data,.form-control{
-	font-size: 11px !important;
+	font-size: 11px
 }
 .form-data label{
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 11px;
 }
 .info-password{
 	width: 36%;
 	margin-right: 12px;
 }
 .conf-newpwd{
-	font-size: 11px !important;
+	font-size: 11px ;
 }
 .info-source div{
 	margin-right: 19px;
 }
 .info-source .urlss{
-	width: 26%!important;
+	width: 26%;
 }
 .change-btn{
-	padding-top: 14px !important;
+	padding-top: 14px;
 }
 .list-histo{
 	padding-top: 12px;
@@ -393,13 +408,13 @@ header{
 }
 
 .row{
-	--bs-gutter-x:0!important;
-	--bs-gutter-y:0!important;
+	/*--bs-gutter-x:0!important;
+	--bs-gutter-y:0!important;*/
 }
 .btnlast{
-	background-color: #ffb300 !important;
-	color: #fff !important;
-	font-size: 11px !important;
+	background-color: #ffb300;
+	color: #ffffff;
+	font-size: 11px;
 }
 .document .btnlast,.save .btnlast{
 	position: absolute;
@@ -416,15 +431,12 @@ header{
 	box-shadow: 2px 1px 4px 3px #f1f1f1;
 }
 .list-docx .docx-content:last-child{
-	margin:0 !important;
+	margin:0;
 }
 
 .wysig{
 	background-color: #eaeef4;
-	border: 1px solid #eaeef4;
-	padding-top: 5em !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+	border: 1px solid #eaeef4;	
 }
 
 .afooter{
@@ -435,7 +447,7 @@ header{
 	bottom: 0;
 	padding-top: 7px;
 	padding-bottom: 9px;
-	box-sizing: border-box !important;
+	box-sizing: border-box;
 	left: 225px;
 }
 
@@ -472,17 +484,13 @@ header{
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	.btn-header {
-    padding: 0px !important;
+	.btn-header {    
 	font-size: 12px;
 	}
 }
 @media screen and (max-width: 1280px) {
-    .wrap{
-        width: 97%;
-    }
-    .menu{
-        width: 169px;
-        left: -121px;
-    }
+	header{
+
+	}
 }
+

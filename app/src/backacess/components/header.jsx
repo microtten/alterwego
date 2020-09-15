@@ -5,7 +5,7 @@ const Header = function(){
 	return(
 		<header>
 			<div className="first">
-				<div className="bs fleft pad5">
+				<div className="bs fleft infobar">
 					<span><i className="fa fa-search"></i></span>
 					<span><i className="fa fa-times-circle"></i>Contrat : <strong>0672222222</strong></span>
 					<span><i className="fa fa-times-circle"></i>User : <strong>Nicole</strong></span>

@@ -20,41 +20,41 @@ const Content = function(){
 			<div className="clear"></div>
 			<div className="form-data">
 				<form>
-					<div className="form-info bs pad13 check row">
-						<div className="col-sm-2 form1 statut">
-								<label className="form-check-label" htmlFor="statut">Statut:</label>
+					<div className="form-info bs pad13 check">
+						<div className="form1 statut tb-cell">
+								<label className="form-check-label display vm" htmlFor="statut">Statut :</label>
 								<input
 									type="checkbox"
-									className="form-check-input"
+									className="form-check-input display vm"
 									id="statut"
 									name="statut"
 									ref={register()}
 								/>
 						</div>
-						<div className="col-sm-2 form1 abandon">
-								<label className="form-check-label" htmlFor="abandon">Abandon:</label>
+						<div className="form1 abandon tb-cell">
+								<label className="form-check-label display vm" htmlFor="abandon">Abandon :</label>
 								<input type="checkbox"
-									className="form-check-input"
+									className="form-check-input display vm"
 									id="abandon" name="abandon"
 									ref={register()}
 								/>
 						</div>
-						 <div className="col-sm-2 form1">
-								<label className="form3-label" htmlFor="paie">Paie les loyers:</label>
+						 <div className="form1 tb-cell">
+								<label className="form3-label display vm" htmlFor="paie">Paie les loyers:</label>
 								<input type="checkbox"
-									className="form-check-input"
+									className="form-check-input display vm"
 									id="paie" name="loyers"
 									ref={register()}
 									/>
 						  </div>
-						<div className="col-sm-2 form1">
-								<label className="form-check-label" htmlFor="offre">Offre Assureurs:</label>
+						<div className="form1 tb-cell">
+								<label className="form-check-label display vm" htmlFor="offre">Offre Assureurs:</label>
 								<input type="checkbox"
-									className="form-check-input"
+									className="form-check-input display vm"
 									id="offre" name="assureur" />
 						</div>
-						<div className="col-sm-4 form5 d-flex scoring">
-						  	<label htmlFor="scoring">Scoring(mail au changement):</label>
+						<div className="form1 scoring">
+						  	<label htmlFor="scoring">Scoring (mail au changement) : </label>
 						    <select className="form-control" id="scoring" name="scoring" ref={register()}>
 						      <option value="traite">Traité</option>
 						      <option value="non">Non-traité</option>

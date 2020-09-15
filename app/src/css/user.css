@@ -7,7 +7,7 @@
     background-color: #fff;
 }
 p{
-    margin: 0 !important;
+    margin: 0;
 }
 .ic{
     cursor: pointer;
@@ -30,6 +30,7 @@ header{
     padding-top: 7px;
     padding-bottom: 9px;
 }
+
 .wrap{
 	width: 95%;
 	margin: 7px auto;
@@ -85,7 +86,7 @@ header{
     padding-left: 5px;
 }
 .listdata:last-child{
-	width: 55px;
+	/*width: 55px;*/
 }
 .listdata p {
     font-size: 12px;
@@ -192,7 +193,7 @@ header{
 }
 .tb1 input,
 .tb2 input{
-	padding: 5px;
+	/*padding: 5px;*/
 }
 .tb2 input{
 	width: 340px;

@@ -50,7 +50,7 @@ select{
 	padding-right: 5px;
 }
 .pad5{
-	padding: 9px;
+	padding: 5px;
 }
 .pad13{
 	padding: 13px;
@@ -105,10 +105,12 @@ select{
 }
 .btn.br-green{
 	background: none;
-	border: 2px solid #4fdea0;
-	border-radius: 5px;
-	color: #4fdea0;
-	margin-right: 10px;
+    border: 2px solid #4fdea0;
+    border-radius: 5px;
+    color: #4fdea0;
+    margin-right: 10px;
+    padding: 5px 15px;
+    font-size: 12px;
 }
 .btn.br-orange{
 	background: none;
@@ -344,10 +346,10 @@ header{
 }
 .btn.orange{
 	background: #ffb300;
+    font-size: 12px;
+    padding: 5px 15px;
 }
-.first button{
-	margin-left: 10px;
-}
+
 .btn i{
 	padding-right: 5px;
 }

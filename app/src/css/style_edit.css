@@ -337,7 +337,7 @@ header{
 	font-size: 12px;
 }
 .form-info{
-	padding: 8px 15px;
+	padding: 15px;
     background-color: #fff;
 }
 .form5 .form-control{
@@ -353,12 +353,17 @@ header{
 }
 .scoring select{
 	display: inline;
-	width: 17%;
+	width: 25%;
 	margin-left: 5px;
 }
 .field{
 	width: 25%;
     display: inline-block;
+}
+.opt{
+	padding: 3px;
+    max-width: 100%;
+    width: 160px;
 }
 
 .field input[type="text"]{
@@ -372,7 +377,10 @@ header{
 	background: url("images/icons/sprite.jpg") no-repeat;
 	background-position: -5px 0px;
 }*/
-
+.info{
+	margin-top: 15px;
+	margin-bottom:5px;
+}
 .info-supp{
 	width: 33%;
     display: inline-block;
@@ -382,14 +390,31 @@ header{
 	width: 90%;
     padding: 3px;
 }
-
+.info-in2{
+	margin-top: 15px;
+}
+.info-in2 .info-bq-detail{
+	width: 50%;
+}
+.info-in2 .info-bq-detail .opt{
+	width: 93%;
+}
 .not-bs{
-	margin-top: 24px;
+	margin-top: 15px;
 }
 
 .info-bq-detail{
-	width: 32% ;
-	margin-right: 12px;
+	width: 33.33%;
+    display: inline-block;
+}
+.info-bq-detail .opt{
+	width: 90%;
+}
+.info-source .display{
+	width: 33.33%;
+}
+.info-source input{
+	width: 90%;
 }
 .form-data,.form-control{
 	font-size: 11px
@@ -404,12 +429,6 @@ header{
 }
 .conf-newpwd{
 	font-size: 11px ;
-}
-.info-source div{
-	margin-right: 19px;
-}
-.info-source .urlss{
-	width: 26%;
 }
 .change-btn{
 	padding-top: 14px;

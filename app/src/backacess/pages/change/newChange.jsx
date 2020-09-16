@@ -14,7 +14,7 @@ const NewChange = function() {
 			<div className="mb-1 objmail">Objet du mail</div>
 			<Wysiwyg />
 			<div className="send-email-btn mb-5">
-				<button className="btn btn-default send">
+				<button className="btn btn-header btn-default send">
 					Envoyé l'e-mail
 				</button>
 			</div>

@@ -19,62 +19,71 @@
 	cursor: pointer;
 }
 .active-email{
-	color: #2ecb9a !important;
-	border-bottom: 2px solid #2ecb9a !important;
+	color: #2ecb9a;
+	border-bottom: 2px solid #2ecb9a;
 }
 
 .info-exp{
 	font-size: 10px;
+	font-size: 13px;
+    margin-bottom: 15px;
 }
 .init-email .form-control{
-	font-size: 9px !important;
+	font-size: 9px;
 
 }
 .objmail{
 	font-size: 12px;
 }
 .send-email-btn .send{
-	background-color: #ffb000 !important;
-    padding-left: 56px !important;
-    padding-right: 56px !important;
-    padding-top: 1px !important;
-	padding-bottom: 1px !important;
+	background-color: #ffb000;
+    padding: 8px 15px;
 	font-size: 13px;
 	width: 100%;
-	box-sizing: border-box !important;
+	box-sizing: border-box;
 }
 .send-email-btn {
 	 max-width: 100%;
 }
 
 .form-control{
-	padding: 0 !important;
+	padding: 0;
 }
 
 
 .trumbowyg-box .trumbowyg-button-group svg{
-	width: 11px !important;
-	height: 11px !important;
+	width: 11px;
+	height: 11px;
 }
 .trumbowyg-box .trumbowyg-button-pane{
 	display: flex;
 }
 .content-wysig .trumbowyg-box .trumbowyg-textarea{
-	height: 222px !important;
+	height: 222px;
 	width: 100%;
 	background-color: #fff;
 }
 
 .DraftEditor-editorContainer{
-	background-color: #fff !important;
+	background-color: #ffffff;
 }
 .public-DraftStyleDefault-block{
-	margin: 0 !important;
+	margin: 0;
 }
 
 .rdw-editor-toolbar{
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
 }
 .rdw-editor-main{
-	height: 264px !important;
+	height: 264px;
+}
+.wysig .rdw-option-wrapper{
+	min-width: 14px;
+	padding: 4px;
+}
+.wysig .mb-2 input{
+	width: 95%;
+}
+.wysig .rdw-editor{
+	padding: 5px;
 }

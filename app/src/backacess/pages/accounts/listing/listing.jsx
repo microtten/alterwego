@@ -15,11 +15,9 @@ const Listing = function(){
 				<Header />
 				<Sidebar />
 				<ContentList />
+				
 				<div className="clear"></div>
 			</div>
-			<footer>
-				<p className="center">A propos d'Alterwego CCU - CGV - Documents</p>
-			</footer>
 		</div>
 	);
 };

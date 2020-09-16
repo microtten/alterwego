@@ -48,6 +48,7 @@ strong{
 .bs{
 	margin-top: 5px;
 	box-shadow: 2px 1px 4px 3px #f1f1f1;
+	border-radius: 5px;
 }
 .pad5{
 	padding-top: 5px;
@@ -523,8 +524,6 @@ header{
 	margin-bottom: 5px;
 	width: 160px;
 	display: inline-block;
-
-
 }
 
 .notif-contrats{
@@ -536,11 +535,7 @@ header{
     padding: 4px 9px;
     font-size: 9px;
 }
-.footer .center{
-	background: red;
-	padding: 25px;
-    color: #aba7a7;
-}
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
 	header{

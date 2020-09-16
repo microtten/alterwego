@@ -9,7 +9,7 @@ const style={
 const BottomBar = function(){
 	return(
 		<div className="afooter">
-				<div className="bar">
+				<div className="bar d-flex">
 					<div className="index" style={style}>
 						<i className="fa fa-user"></i><span style={{"cursor":"pointer"}}>Utilisateur</span>
 					</div>

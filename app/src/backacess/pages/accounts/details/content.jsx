@@ -181,6 +181,7 @@ const Content = function(){
 				<Historique data={dataHisto} />
 			</div>
 			<BottomBar />
+			
 		</div>
 	)
 };

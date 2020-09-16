@@ -16,15 +16,15 @@ const Email = function () {
 			<div className="mb-2">
 				<input
 					type="email"
-					className=""
-					placeholder="Exemple:Assurrance"
+					className="noborder pad5 wbs"
+					placeholder="Exemple : Assurance"
 				/>
 			</div>
 			<div className="mb-1 objmail">Objet du mail</div>
 			<div className="mb-2">
 				<input
 					type="email"
-					className=""
+					className="noborder pad5 bs"
 					placeholder="Demande d'information supplementaire"
 				/>
 			</div>

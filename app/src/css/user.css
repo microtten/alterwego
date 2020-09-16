@@ -225,4 +225,6 @@ header{
 }
 footer{
 	font-size: 12px;
+    padding: 15px;
+    border-top: 2px solid #bdbdbd;
 }

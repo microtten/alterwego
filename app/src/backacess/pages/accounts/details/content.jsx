@@ -174,8 +174,8 @@ const Content = function(){
 						<button className="btnlast btn btn-default"><i className="fa fa-edit"></i>Sauvegarder</button>
 					</div>
 					<ListUploadDoc />
-					<div style={{"fontWeight":"bold","textTransform":"uppercase"}}>
-						Historique des échanges
+					<div className="histo">
+						<h2>Historique des échanges</h2>
 					</div>
 				</form>
 				<Historique data={dataHisto} />

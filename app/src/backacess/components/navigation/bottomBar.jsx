@@ -9,11 +9,11 @@ const style={
 const BottomBar = function(){
 	return(
 		<div className="afooter">
-				<div className="row" style={{"margin":"0 auto","width":"50%"}}>
-					<div className="col-sm-4 index" style={style}>
+				<div className="bar">
+					<div className="index" style={style}>
 						<i className="fa fa-user"></i><span style={{"cursor":"pointer"}}>Utilisateur</span>
 					</div>
-					<div className="col-sm-4 index">
+					<div className="index">
 						<Link  to="/contrat">
 							<i className="fa fa-file">
 								<span style={{marginLeft:"3px","cursor":"pointer"}}>Contrats</span>
@@ -21,7 +21,7 @@ const BottomBar = function(){
 						</Link>
 						<span className="notif-contrats">2</span>
 					</div>
-					<div className="col-sm-4 index">
+					<div className="index">
 						<Link  to="/vin">
 							<i className="fa fa-car"></i>
 							<span style={{marginLeft:"3px","cursor":"pointer"}}>Voiture</span>

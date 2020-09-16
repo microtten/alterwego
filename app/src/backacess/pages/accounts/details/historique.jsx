@@ -6,10 +6,10 @@ const Historique = function({data}) {
 		<div className="not-bs">
 			{
 				data.map((histo,i) => (
-						<div className="row list-histo" key={i}>
-							<div className="col-sm-2">{histo.date}</div>
-							<div className="col-sm-6">{histo.message}</div>
-							<div className="col-sm-4">{histo.name}</div>
+						<div className="list-histo  bs d-flex" key={i}>
+							<div className="mright hdate">{histo.date}</div>
+							<div className="mright hmessage">{histo.message}</div>
+							<div className="mright hname">{histo.name}</div>
 						</div>
 					)
 				)

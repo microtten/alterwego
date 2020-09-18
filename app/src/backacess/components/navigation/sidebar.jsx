@@ -6,7 +6,7 @@ const Sidebar = function(){
 		<nav className="menu">
 			<ul>
 				<li className="logo no-icon">
-					<a href="#"><img src="images/icons/logo.png" alt=""/></a>
+					<a href="#"><img src={require("../../../images/icons/logo.png")} alt=""/></a>
 				</li>
 				<li><a href="#" className="bground dashboard">Dashboard</a></li>
 				<li><a href="#" className="bground mod">Modèles</a></li>

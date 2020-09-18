@@ -100,6 +100,10 @@ a{
 }
 strong{
 	font-weight: 500;
+	
+}
+select{
+	color: #8e8e8e;
 }
 .center{
 	text-align: center;
@@ -197,11 +201,11 @@ strong{
 	
 }
 .content{
-	width: calc(100% - 515px);
-    /*float: left;*/
-    padding: 5em 16px;
+	width: calc(100% - 515px);    
+    padding: 5em 16px 0px;
     background-color: #f5f7fa;
-    overflow: auto;    
+    overflow: auto;
+    color: #8e8e8e;
 }
 .content::-webkit-scrollbar {
     display: none;
@@ -215,8 +219,7 @@ header{
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0px;
-	width: 110px;
-    /*float: left;*/
+	width: 110px;    
     padding-left: 62px;
 	padding-right: 15px;
     padding-top: 5em;
@@ -244,8 +247,7 @@ header{
 
 }
 .aside{
-	width: 264px;
-	/*float: right;*/
+	width: 264px;	
 	padding: 5em 15px;
 	position: sticky;
 	position: -webkit-sticky;
@@ -253,42 +255,27 @@ header{
 
 }
 .menu{
-	width: 42px;
-    position: fixed;
-    left: 36px;
+	width: 150px;
+	position: absolute;
+    left: -110px;
     top: 0;
     background: #4fdea0;
     transition: 500ms ease-in-out;
     overflow: hidden;
     z-index: 4;
-}
-.menu:hover{
-	left: 87px;
-    transition: 500ms ease-in-out;    
-    width: 160px;
-    display: inline-block;
-}
-.menu:hover li.no-icon{
-	position: relative;
-	right:-42px;
+    height: 100%;
 }
 
-.wrap .menu li{
-	width: 95px;
-	/* height: 48px; */
-	/* background: brown; */
-	/* padding-right: 10px;*/
+.wrap .menu .logo img{
+	height: 17px;
+}
+.wrap .menu li{	
 	text-align: right;
-	padding-bottom: 24px;
-	/*background: red;*/
-	float: right;
-	margin-right: 0px;
-	padding-right: 66px;
-    
+	padding-bottom: 15px;
 }
 .wrap .menu li a{
 	display: inline-block;
-	width: 95px;
+	/*width: 95px;*/
 	color: #ffffff;
 	font-size: 12px;
 	font-family: arial, sans-serif;	
@@ -297,20 +284,17 @@ header{
 	content: "";
 	width: 25px;
 	height: 25px;
-	display: inline-block;
-	/*border: 1px solid black;	*/
+	display: inline-block;	
 	right: 8px;
     position: absolute;
 }
 .wrap .menu li.no-icon{
 	width: 100%;
-    padding: 18.5px 0;
+    padding: 17.5px 0;
     margin-bottom: 10px;
+    /*text-align: center;*/
 }
-.wrap .menu li.no-icon a{
-	left: -76px;
-    position: relative;
-}
+
 .wrap .menu li.no-icon a:after{
 	display: none;
 }
@@ -575,11 +559,9 @@ header{
 .afooter{
 	background: #ffffff;	
 	z-index: 2;
-	bottom: 0;	
-	position: absolute;
-	width: 62.4%;
-    right: 295px;
-    padding-bottom: 5px;
+	bottom: 0;		
+	width: 100%;    
+    
 
 }
 .bar{	
@@ -596,8 +578,7 @@ header{
 .index{	
 	font-size: 12px;	
 	padding: 12px 12px;
-	text-align: center;
-	margin-bottom: 5px;
+	text-align: center;	
 	width: 160px;
 	display: inline-block;
 }

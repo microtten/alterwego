@@ -38,9 +38,9 @@ header{
 	overflow: hidden;
 }
 .users .content{
-	width: 95%;
-    float: left;
-    /*height: 500px;*/
+    position: sticky;
+	min-width: 95%;
+    float: left;    
     padding-top: 68px;
     padding-left: 56px;
     background: #f7f7f7;
@@ -77,6 +77,9 @@ header{
 	padding-left: 12px;
 	margin-bottom: 2px;
 }
+.col-list p.line{
+    color: #000000;
+}
 .listdata{
 	/*border: 1px solid black;*/
     width: 101px;
@@ -90,6 +93,10 @@ header{
 }
 .listdata p {
     font-size: 12px;
+}
+
+.listdata strong{
+    color: #000000;
 }
 .right i{
 	margin-right: 12px;
@@ -211,7 +218,7 @@ header{
 	margin-top: 20px;
 }
 .users .wrap{
-    display: inherit;
+    display: flex;
 }
 .pager{
 	text-align: center;
@@ -226,5 +233,5 @@ header{
 footer{
 	font-size: 12px;
     padding: 15px;
-    border-top: 2px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;
 }
